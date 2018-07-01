@@ -15,7 +15,7 @@ This chart bootstraps a SonarQube instance with a PostgreSQL database.
 Pre-requisite:    
 install a PostGres database:    
 ```
-$ helm install --namespace sonarqube --name sonardb --set postgresUser=sonarUser,postgresPassword=sonarPass,postgresDatabase=sonarDB <path to>/charts/stable/postgresql
+$ helm install --namespace sonarqube --name sonarqube-postgresql --set postgresUser=sonarUser,postgresPassword=sonarPass,postgresDatabase=sonarDB charts/stable/postgresql
 ```   
 
 To install the chart :
